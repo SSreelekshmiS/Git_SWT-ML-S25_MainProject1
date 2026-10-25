@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-25T07:35:48 IST" name="Default suite" finished-at="2026-10-25T07:37:10 IST" duration-ms="82576">
+    <groups>
+    </groups>
+    <test started-at="2026-10-25T07:35:48 IST" name="Default test" finished-at="2026-10-25T07:37:10 IST" duration-ms="82576">
+      <class name="tests.RegisterTestValid">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegisterTestValid@247bddad]" started-at="2026-10-25T07:36:06 IST" name="setUp" finished-at="2026-10-25T07:36:10 IST" duration-ms="3882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyNewUserRegistration()[pri:0, instance:tests.RegisterTestValid@247bddad]" started-at="2026-10-25T07:36:10 IST" name="verifyNewUserRegistration" finished-at="2026-10-25T07:36:12 IST" duration-ms="2409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTestValid@247bddad]" started-at="2026-10-25T07:36:12 IST" name="tearDown" finished-at="2026-10-25T07:36:12 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTestValid -->
+      <class name="tests.DemoWebShopEndToEndTestInvalid">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DemoWebShopEndToEndTestInvalid@229f66ed]" started-at="2026-10-25T07:35:49 IST" name="setUp" finished-at="2026-10-25T07:35:54 IST" duration-ms="5485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="negativeCheckoutTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DemoWebShopEndToEndTestInvalid@229f66ed]" started-at="2026-10-25T07:35:54 IST" name="negativeCheckoutTest" data-provider="registrationData" finished-at="2026-10-25T07:36:05 IST" duration-ms="11005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewTest1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User232317]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[newtest1user232317@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User@232317]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[User@232317]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Music 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeCheckoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DemoWebShopEndToEndTestInvalid@229f66ed]" started-at="2026-10-25T07:36:05 IST" name="tearDown" finished-at="2026-10-25T07:36:06 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DemoWebShopEndToEndTestInvalid -->
+      <class name="tests.LoginTestInvalid">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTestInvalid@d35dea7]" started-at="2026-10-25T07:36:13 IST" name="setUp" finished-at="2026-10-25T07:36:17 IST" duration-ms="4027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTestInvalid@d35dea7]" started-at="2026-10-25T07:36:17 IST" name="verifyLogin" data-provider="InvalidloginData" finished-at="2026-10-25T07:36:18 IST" duration-ms="1412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[olduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[T1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTestInvalid@d35dea7]" started-at="2026-10-25T07:36:18 IST" name="tearDown" finished-at="2026-10-25T07:36:18 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTestInvalid -->
+      <class name="tests.DemoWebShopEndToEndTestValid">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DemoWebShopEndToEndTestValid@7770f470]" started-at="2026-10-25T07:36:18 IST" name="setUp" finished-at="2026-10-25T07:36:23 IST" duration-ms="4636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="completeShoppingJourney(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.DemoWebShopEndToEndTestValid@7770f470]" started-at="2026-10-25T07:36:23 IST" name="completeShoppingJourney" data-provider="registrationData" finished-at="2026-10-25T07:36:44 IST" duration-ms="20872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NewTest1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User242310]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[newtest1user242310@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User@242310]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[User@242310]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Computing and Internet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeShoppingJourney -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DemoWebShopEndToEndTestValid@7770f470]" started-at="2026-10-25T07:36:44 IST" name="tearDown" finished-at="2026-10-25T07:36:45 IST" duration-ms="1324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DemoWebShopEndToEndTestValid -->
+      <class name="tests.RegisterTestInvalid">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegisterTestInvalid@5e5d171f]" started-at="2026-10-25T07:36:45 IST" name="setUp" finished-at="2026-10-25T07:36:49 IST" duration-ms="3977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegistrationWithMissingMandatoryFields()[pri:0, instance:tests.RegisterTestInvalid@5e5d171f]" started-at="2026-10-25T07:36:49 IST" name="verifyRegistrationWithMissingMandatoryFields" finished-at="2026-10-25T07:36:50 IST" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationWithMissingMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegisterTestInvalid@5e5d171f]" started-at="2026-10-25T07:36:50 IST" name="tearDown" finished-at="2026-10-25T07:36:51 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegisterTestInvalid -->
+      <class name="tests.LoginTestValid">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTestValid@24313fcc]" started-at="2026-10-25T07:36:51 IST" name="setUp" finished-at="2026-10-25T07:36:55 IST" duration-ms="3882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTestValid@24313fcc]" started-at="2026-10-25T07:36:55 IST" name="verifyLogin" data-provider="ValidloginData" finished-at="2026-10-25T07:36:57 IST" duration-ms="2419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusers11@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tester1@1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTestValid@24313fcc]" started-at="2026-10-25T07:36:57 IST" name="tearDown" finished-at="2026-10-25T07:36:57 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTestValid@24313fcc]" started-at="2026-10-25T07:36:57 IST" name="setUp" finished-at="2026-10-25T07:37:01 IST" duration-ms="4049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTestValid@24313fcc]" started-at="2026-10-25T07:37:01 IST" name="verifyLogin" data-provider="ValidloginData" finished-at="2026-10-25T07:37:03 IST" duration-ms="1690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newtestuser2415@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@2415]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTestValid@24313fcc]" started-at="2026-10-25T07:37:03 IST" name="tearDown" finished-at="2026-10-25T07:37:03 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTestValid -->
+      <class name="tests.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LogoutTest@7d20d0b]" started-at="2026-10-25T07:37:03 IST" name="setUp" finished-at="2026-10-25T07:37:07 IST" duration-ms="3898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginAndLogout()[pri:0, instance:tests.LogoutTest@7d20d0b]" started-at="2026-10-25T07:37:07 IST" name="verifyLoginAndLogout" finished-at="2026-10-25T07:37:10 IST" duration-ms="2679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginAndLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LogoutTest@7d20d0b]" started-at="2026-10-25T07:37:10 IST" name="tearDown" finished-at="2026-10-25T07:37:10 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
