@@ -9,14 +9,14 @@
 
 2. Technologies Used
 
-	- Programming Language: Java
-	- Automation Tool: Selenium WebDriver
-	- Test Framework: TestNG
-	- Build Tool: Maven
-	- Design Pattern: Page Object Model (POM)
-	- Test Data Management: Excel (Apache POI)
-	- Browser: Google Chrome
-	- IDE: Eclipse
+	- Programming Language : Java
+	- Automation Tool : Selenium WebDriver
+	- Test Framework : TestNG
+	- Build Tool : Maven
+	- Design Pattern : Page Object Model (POM)
+	- Test Data Management : Excel (Apache POI)
+	- Browser : Google Chrome
+	- IDE : Eclipse
 
 3. Modules Covered
 
